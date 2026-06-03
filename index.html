@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Rawad & Carla Wedding Invitation</title>
+  <meta name="description" content="You are invited to celebrate the wedding of Rawad & Carla on 28.06.26." />
+  <meta property="og:title" content="You're Invited | Rawad & Carla" />
+  <meta property="og:description" content="Wedding Invitation · 28.06.26" />
+  <meta property="og:image" content="assets/preview.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="You're Invited | Rawad & Carla" />
+  <meta name="twitter:description" content="Wedding Invitation · 28.06.26" />
+  <meta name="twitter:image" content="assets/preview.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Great+Vibes&family=Noto+Naskh+Arabic:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bgMusic" src="assets/music.mp3" loop preload="auto"></audio>
+
+  <button class="music-btn" id="musicBtn" aria-label="Play music">♪</button>
+
+  <section class="cover section photo-section" style="--img:url('assets/wide_tree.jpg')">
+    <div class="veil"></div>
+    <div class="cover-title reveal">
+      <h1>Rawad</h1>
+      <span>&amp;</span>
+      <h1>Carla</h1>
+    </div>
+  </section>
+
+  <section class="arabic-band reveal">
+    <p dir="rtl">وجعل بينكم مودة ورحمة</p>
+  </section>
+
+  <section class="section image-only soft reveal" style="--img:url('assets/couple_standing.jpg')"></section>
+
+  <section class="section about panel reveal">
+    <div class="faint-bg" style="--img:url('assets/close_hands.jpg')"></div>
+    <h2>ABOUT THE<br>WEDDING</h2>
+
+    <div class="icon perfume"></div>
+    <h3>The Gathering</h3>
+    <p>We warmly invite you to gather at<br>
+      Kfarnabrakh <span dir="rtl">(بيت كفرنبرخ)</span> at 12:30 PM,<br>
+      as we begin this special day together<br>
+      surrounded by our loved ones.</p>
+
+    <div class="icon dance"></div>
+    <h3>The Ceremony</h3>
+    <p>At 1:30 PM, we will gather at Abadiyeh<br>
+      <span dir="rtl">(مركز العبادية الإجتماعي)</span> to welcome the<br>
+      groom and continue celebrating this<br>
+      joyful occasion together.</p>
+  </section>
+
+  <section class="section panel reveal small-top">
+    <div class="icon cocktail"></div>
+    <h3>Greeting Guests</h3>
+    <p>Guests will be welcomed for greetings<br>
+      and congratulations from 6:30 PM until<br>
+      7:30 PM at Kfarnabrakh <span dir="rtl">(بيت كفرنبرخ)</span>, as<br>
+      we gather with family and friends.</p>
+
+    <h2 class="gift-title">GIFT REGISTRY</h2>
+    <p class="gift">Whish Money&nbsp;&nbsp;+961 03 898 253</p>
+    <p class="arabic-small" dir="rtl">لمن يرغب الإهداء يوجد صندوق فرح</p>
+    <img class="bottom-photo" src="assets/couple_flowers.jpg" alt="Rawad and Carla" />
+  </section>
+
+  <section class="section locations reveal">
+    <div class="top-photo" style="--img:url('assets/couple_flowers.jpg')"></div>
+    <h2>LOCATIONS</h2>
+    <p class="sub">Click to find the location</p>
+
+    <a class="loc" href="https://www.google.com/maps/search/?api=1&query=%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%AF%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A5%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A" target="_blank" rel="noopener">
+      <span class="pin"></span>
+      <span dir="rtl">مركز العبادية الإجتماعي</span>
+    </a>
+
+    <a class="loc route" href="https://www.google.com/maps/search/?api=1&query=%D8%A8%D9%8A%D8%AA%20%D9%83%D9%81%D8%B1%D9%86%D8%A8%D8%B1%D8%AE" target="_blank" rel="noopener">
+      <span class="route-icon"></span>
+      <span dir="rtl">بيت كفرنبرخ</span>
+    </a>
+  </section>
+
+  <section class="section finale reveal" style="--img:url('assets/bride_close.jpg')">
+    <div class="veil"></div>
+    <p class="date">28.06.26</p>
+    <p class="final-ar" dir="rtl">بحضوركم تكتمل أفراحنا</p>
+  </section>
+
+  <div class="tap-start" id="tapStart">
+    <div class="tap-card">
+      <p class="tiny">Wedding Invitation</p>
+      <h4>Rawad & Carla</h4>
+      <button>Tap to Start</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
